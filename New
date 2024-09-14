@@ -1,0 +1,8 @@
+git clone https://github.com/allora-network/allora-offchain-node
+cd allora-offchain-node
+cp config.example.json config.json
+https://allora-rpc.testnet.allora.network/
+chmod +x init.config
+./init.config
+docker compose up --build
+nano config.json
